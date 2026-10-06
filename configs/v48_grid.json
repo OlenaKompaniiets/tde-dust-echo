@@ -1,0 +1,53 @@
+{
+  "description": "81-model first pass; fixed geometry and STARS driver family; no independent band amplitudes",
+  "resolution": "coarse",
+  "seed": 481,
+  "base": {
+    "stars": "input/m3.0_t0.0/0.850.dat",
+    "tau_visc": 350.0,
+    "eta": 0.1,
+    "compact": [
+      0.25,
+      0.5,
+      0.0
+    ],
+    "extended": [
+      1.0,
+      2.0,
+      2.0
+    ],
+    "tau_C": 0.4,
+    "tau_E": 2.6,
+    "theta": 40.0,
+    "inc": 40.0,
+    "composition": "graphite",
+    "amin": 0.1,
+    "amax": 1.0,
+    "q": 3.5,
+    "density": 1000000000.0,
+    "dt": 10.0,
+    "source_end_days": 6500.0
+  },
+  "axes": {
+    "tau_C": [
+      0.4,
+      0.2,
+      0.8
+    ],
+    "tau_E": [
+      2.6,
+      1.4,
+      4.0
+    ],
+    "tau_visc": [
+      350.0,
+      200.0,
+      500.0
+    ],
+    "eta": [
+      0.1,
+      0.15,
+      0.2
+    ]
+  }
+}

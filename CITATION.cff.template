@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Cite the associated UGC 11487 paper and the versioned software release. Complete this template before publication."
+title: "UGC 11487 time-dependent dust echo"
+version: "0.1.0-rc1"
+type: software
+# Add the confirmed authors list, repository-code URL, license, and release date.
+# Rename to CITATION.cff after completing and validating required metadata.
+# Add a software DOI only after one has actually been assigned.
+repository-code: "https://github.com/OlenaKompaniiets/tde-dust-echo"
+license: CC0-1.0

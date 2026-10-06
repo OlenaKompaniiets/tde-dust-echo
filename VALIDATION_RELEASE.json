@@ -1,0 +1,25 @@
+{
+  "clean_environment": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "pandas": "3.0.6",
+    "matplotlib": "3.11.2",
+    "astropy": "8.0.1"
+  },
+  "platform": "Linux; Windows installation commands supplied but not executed here",
+  "archived_chi2": 58.95064072368716,
+  "reproduced_chi2": 58.95133487878386,
+  "delta_chi2": 0.0006941550967027865,
+  "elapsed_solver_seconds": 171.17331187600007,
+  "sublimation_gate_passed": true,
+  "global_budget_relative": -1.0846945485015232e-06,
+  "inherited_python_sources_unchanged": 62,
+  "archived_chi2_reconstructed_from_epochs": true,
+  "local_documentation_links_valid": true,
+  "python_sources_parse": true,
+  "staged_and_profile_help_commands": true,
+  "browser_visual_check": "Not completed: browser binary download failed. HTML local links were checked.",
+  "full_grid_rerun": false,
+  "uncertainty_profiles_completed": false
+}

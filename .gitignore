@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+results/
+**/kernel_cache/
+**/_solver_*.py
+.DS_Store

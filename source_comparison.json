@@ -1,0 +1,250 @@
+[
+  {
+    "path": "src/v4_thermal_lookup.py",
+    "unchanged": true
+  },
+  {
+    "path": "src/v4_broken_geometry.py",
+    "unchanged": true
+  },
+  {
+    "path": "src/v4_thermal.py",
+    "unchanged": true
+  },
+  {
+    "path": "src/v46_ir_reprocessing_AUDIT.py",
+    "unchanged": true
+  },
+  {
+    "path": "src/v4_opacity.py",
+    "unchanged": true
+  },
+  {
+    "path": "src/v4_dust_response.py",
+    "unchanged": true
+  },
+  {
+    "path": "src/__init__.py",
+    "unchanged": true
+  },
+  {
+    "path": "src/v4_sublimation.py",
+    "unchanged": true
+  },
+  {
+    "path": "src/v48_angular_rt.py",
+    "unchanged": true
+  },
+  {
+    "path": "src/v4_driver.py",
+    "unchanged": true
+  },
+  {
+    "path": "src/v4_dust.py",
+    "unchanged": true
+  },
+  {
+    "path": "src/v4_wise_emission.py",
+    "unchanged": true
+  },
+  {
+    "path": "src/v4_dust_population.py",
+    "unchanged": true
+  },
+  {
+    "path": "src/v4_3d_echo.py",
+    "unchanged": true
+  },
+  {
+    "path": "src/v46_ir_reprocessing.py",
+    "unchanged": true
+  },
+  {
+    "path": "src/test_v4_dust_population.py",
+    "unchanged": true
+  },
+  {
+    "path": "src/v45_direct_absorption.py",
+    "unchanged": true
+  },
+  {
+    "path": "src/v4_two_layer_rt.py",
+    "unchanged": true
+  },
+  {
+    "path": "src/v4_dust_mixture.py",
+    "unchanged": true
+  },
+  {
+    "path": "src/v4_observer_echo.py",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/run_v41_structured_test.py",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/check_v45_resolution.py",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/run_v48_all_stars.py",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/run_fixed_controls.py",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/run_v43b_extended_geometry_test.py",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/run_broad_control_sweep.py",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/run_v42_composition_size_test.py",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/run_v45_direct_absorption.py",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/run_v43_temporal_driver_test.py",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/run_v48_staged.py",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/run_v46_ir_reprocessing_AUDIT.py",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/test_fixed_numerics.py",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/run_v46c_boundary_audit.py",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/audit_v46_energy.py",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/test_v48_all_stars_scheduler.py",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/v48_staged_common.py",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/run_v44_rt_control.py",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/run_v46b_focused_refit.py",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/test_v43c_inference.py",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/test_v48_staged.py",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/diagnose_current_production_best.py",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/run_v48_grid_model.py",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/test_v46_ir_reprocessing.py",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/run_v48_all_stars_model.py",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/test_v48_grid_scheduler.py",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/run_v48_grid.py",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/test_v45_direct_absorption.py",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/check_fixed_resolution.py",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/v48_paper_products.py",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/run_v43c_geometry_audit.py",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/v48_staged_plan.py",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/test_v4_wise_absolute_stage1.py",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/v48_large_lock.py",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/run_v4_model_grid.py",
+    "unchanged": true
+  },
+  {
+    "path": "scripts/run_v46_ir_reprocessing.py",
+    "unchanged": true
+  },
+  {
+    "path": "V48_LOCAL_PAIR/solver.py",
+    "unchanged": true
+  },
+  {
+    "path": "V48_LOCAL_PAIR/run_pair.py",
+    "unchanged": true
+  },
+  {
+    "path": "V48_PAPER_FINAL/plot_all.py",
+    "unchanged": true
+  },
+  {
+    "path": "V48_PAPER_FINAL/run_parallel.py",
+    "unchanged": true
+  },
+  {
+    "path": "V48_PAPER_FINAL/run_final.py",
+    "unchanged": true
+  },
+  {
+    "path": "V48_PAPER_FINAL/make_paper_figures.py",
+    "unchanged": true
+  },
+  {
+    "path": "V48_UNCERTAINTIES/run_profiles.py",
+    "unchanged": true
+  }
+]

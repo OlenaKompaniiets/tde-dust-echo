@@ -1,0 +1,58 @@
+[
+  {
+    "iteration": 1,
+    "max_spectral_relative": 0.16151215911676103,
+    "L1_relative": 0.25057790621835485,
+    "max_temperature_K": 1142.5453595670506,
+    "thermal_relative": 7.910740219966554e-16
+  },
+  {
+    "iteration": 2,
+    "max_spectral_relative": 0.026387846726963687,
+    "L1_relative": 0.05818928676174887,
+    "max_temperature_K": 1143.5645713091787,
+    "thermal_relative": 1.0622920295035118e-15
+  },
+  {
+    "iteration": 3,
+    "max_spectral_relative": 0.004443963766997216,
+    "L1_relative": 0.012101253633858956,
+    "max_temperature_K": 1143.5827844758178,
+    "thermal_relative": 9.038811089685833e-16
+  },
+  {
+    "iteration": 4,
+    "max_spectral_relative": 0.0006870446246291104,
+    "L1_relative": 0.0021912106495849872,
+    "max_temperature_K": 1143.5830473799479,
+    "thermal_relative": 9.835210983724128e-16
+  },
+  {
+    "iteration": 5,
+    "max_spectral_relative": 9.273188824874068e-05,
+    "L1_relative": 0.000348612195757765,
+    "max_temperature_K": 1143.5830506009909,
+    "thermal_relative": 9.03879089932838e-16
+  },
+  {
+    "iteration": 6,
+    "max_spectral_relative": 1.1102558324974535e-05,
+    "L1_relative": 4.9566413178011044e-05,
+    "max_temperature_K": 1143.58305065161,
+    "thermal_relative": 8.851477290935503e-16
+  },
+  {
+    "iteration": 7,
+    "max_spectral_relative": 1.1963069096994434e-06,
+    "L1_relative": 6.417927903465774e-06,
+    "max_temperature_K": 1143.5830506515379,
+    "thermal_relative": 8.140941037805626e-16
+  },
+  {
+    "iteration": 8,
+    "max_spectral_relative": 1.2545825962904775e-07,
+    "L1_relative": 7.881590163387589e-07,
+    "max_temperature_K": 1143.5830506621908,
+    "thermal_relative": 8.605932367503596e-16
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "status": "complete",
+  "chi2": {
+    "chi2_total": 58.95064072368716,
+    "chi2_w1": 19.487984248108464,
+    "chi2_w2": 39.46265647557869,
+    "t0_mjd": 57063.03166038865,
+    "t0_boundary": false
+  },
+  "diagnostics": {
+    "W1_data": {
+      "positive_fluence_mJy_observer_day": 24476.544385117053,
+      "centroid_MJD": 58114.551932594026,
+      "width_observer_day": 722.0901052934734
+    },
+    "W1_model": {
+      "positive_fluence_mJy_observer_day": 23546.98439242756,
+      "centroid_MJD": 58096.68934314869,
+      "width_observer_day": 668.5491184485903
+    },
+    "W2_data": {
+      "positive_fluence_mJy_observer_day": 52822.064095325404,
+      "centroid_MJD": 58325.08659571028,
+      "width_observer_day": 790.8775871890017
+    },
+    "W2_model": {
+      "positive_fluence_mJy_observer_day": 52082.205971008705,
+      "centroid_MJD": 58322.69652343772,
+      "width_observer_day": 768.8498212298542
+    }
+  },
+  "conventions": [
+    "Temperatures are actual saved equilibrium solutions; radial profiles use volume-mean representative radius and angular number weights.",
+    "3D thermal_evolution_3d is a sampling of an effective smooth medium, not discrete physical clumps.",
+    "Flux-flux errors are adopted photometric sigma with fixed host. Host uncertainty/covariance is not included in the likelihood.",
+    "Colour error uses first-order independent-band propagation.",
+    "Fluence moments use only WISE epochs and positive excess; not bolometric energy or published estimator uncertainties.",
+    "No diagnostics in this file enter model selection; only photometric chi-square.",
+    "Static opacity: unsupported_sublimation means solver domain limitation, not zero MIR."
+  ]
+}

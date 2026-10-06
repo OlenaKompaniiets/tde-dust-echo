@@ -1,0 +1,38 @@
+{
+  "bounds": {
+    "eta": [
+      0.1,
+      0.22
+    ],
+    "tau_visc": [
+      100,
+      400
+    ],
+    "tau_C": [
+      0.2,
+      0.8
+    ],
+    "tau_E": [
+      1.2,
+      3.4
+    ],
+    "theta": [
+      30,
+      55
+    ],
+    "inc": [
+      30,
+      55
+    ]
+  },
+  "steps": {
+    "eta": 0.015,
+    "tau_visc": 50,
+    "tau_C": 0.05,
+    "tau_E": 0.3,
+    "theta": 5,
+    "inc": 5
+  },
+  "sweeps": 4,
+  "scope": "Conditional local coordinate search; no global minimum or parameter uncertainty claim."
+}

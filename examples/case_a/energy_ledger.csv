@@ -1,0 +1,13 @@
+quantity,value
+E_direct_absorbed_all_arrivals_erg,5.301315951757497e+51
+E_IR_eventual_escape_from_computed_emission_erg,5.301310403222836e+51
+E_direct_pending_absorption_erg,0.0
+E_IR_pending_absorption_erg,0.0
+convolution_pending_roundoff_erg,-2.108234859576336e+44
+E_intrinsic_emission_erg,7.622711361349649e+51
+E_secondary_absorbed_in_window_erg,2.3214011689502975e+51
+global_budget_relative,-1.0864016026798439e-06
+last_10_steps_emission_fraction,5.020627933105487e-10
+E_source_window_erg,8.636302868159904e+51
+E_source_full_driver_erg,8.661266626629699e+51
+E_direct_eventual_escape_erg,3.334986916402407e+51
