@@ -31,7 +31,7 @@ let yaw=-.95,pitch=.44,drag=null,playing=false,lastFrame=0;
 const stops=[[201,225,239],[116,173,209],[104,85,162],[190,71,118],[238,133,60],[245,194,75],[255,241,168]];
 function rgb(t){const u=Math.max(0,Math.min(1,t/D.displayMax))*(stops.length-1),i=Math.min(stops.length-2,Math.floor(u)),f=u-i;return stops[i].map((v,j)=>Math.round(v*(1-f)+stops[i+1][j]*f));}
 function rotate(p){const xx=Math.cos(yaw)*p[0]-Math.sin(yaw)*p[1],a=Math.sin(yaw)*p[0]+Math.cos(yaw)*p[1];return [xx,Math.cos(pitch)*p[2]-Math.sin(pitch)*a,Math.cos(pitch)*a+Math.sin(pitch)*p[2]];}
-function drawDust(){const[g,w,h]=context($('dust'),480),idx=+$('time').value,temps=D.temperatures[$('grain').value][idx],region=$('region').value,R=region==='compact'?.5:2,scale=Math.min(w*.39,h*.39)/R,cx=w/2,cy=h/2+8;
+function drawDust(){const[g,w,h]=context($('dust'),document.body.classList.contains('home')?350:480),idx=+$('time').value,temps=D.temperatures[$('grain').value][idx],region=$('region').value,R=region==='compact'?.5:2,scale=Math.min(w*.39,h*.39)/R,cx=w/2,cy=h/2+8;
  const project=p=>{const q=rotate(p);return [cx+q[0]*scale,cy-q[1]*scale,q[2]];};
  const inRegion=(r)=>region==='compact'?r<=.50001:region==='extended'?r>=.99999:true;
  const pts=[];let missing=0,max=0,min=Infinity;
@@ -48,7 +48,7 @@ function drawDust(){const[g,w,h]=context($('dust'),480),idx=+$('time').value,tem
 }
 $('dust').style.touchAction='none';$('dust').addEventListener('pointerdown',e=>{drag=[e.clientX,e.clientY];$('dust').setPointerCapture(e.pointerId);});$('dust').addEventListener('pointermove',e=>{if(!drag)return;yaw+=(e.clientX-drag[0])*.009;pitch=Math.max(-1.45,Math.min(1.45,pitch+(e.clientY-drag[1])*.009));drag=[e.clientX,e.clientY];drawDust();});$('dust').addEventListener('pointerup',()=>drag=null);$('dust').addEventListener('pointercancel',()=>drag=null);
 for(const id of ['time','region','grain','cut'])$(id).addEventListener('input',drawDust);
-$('reset3D').onclick=()=>{yaw=-.95;pitch=.44;$('time').value=15;$('region').value='all';$('grain').value='mean';$('cut').checked=false;playing=false;$('play').textContent='▶ Play';drawDust();};
+$('reset3D').onclick=()=>{yaw=-.95;pitch=.44;$('time').value=40;$('region').value='all';$('grain').value='mean';$('cut').checked=false;playing=false;$('play').textContent='▶ Play';drawDust();};
 $('play').onclick=()=>{playing=!playing;$('play').textContent=playing?'Pause':'▶ Play';};
 function animate(now){if(playing&&now-lastFrame>170){$('time').value=(+$('time').value+1)%D.times.length;drawDust();lastFrame=now;}requestAnimationFrame(animate);}requestAnimationFrame(animate);
 window.addEventListener('resize',()=>{drawLC();drawDust();});drawLC();drawDust();

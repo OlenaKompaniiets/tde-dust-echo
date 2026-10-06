@@ -2,6 +2,16 @@
 
 Research software and static documentation for the V4.8 effective-medium dust radiative-transfer model. This is a **release-preparation candidate (0.1.0-rc1)**, not a published release.
 
+## Explore the model website
+
+The website starts at **[docs/index.html](docs/index.html)**. It includes a rotatable 3D temperature field with a time slider directly on the home page, an interactive explanation of the physical calculation, WISE light curves with error bars, and an eight-step UGC 11487 tutorial.
+
+To view it on your computer, download the repository and open `docs/index.html` in a browser. GitHub's repository file view displays source files; it does not run the interactive website. Alternatively, use the local web-server command below.
+
+- **Understand:** [physics](docs/physics.html) · [numerical implementation](docs/numerics.html)
+- **Reproduce:** [step-by-step UGC 11487 tutorial](docs/walkthrough.html)
+- **Inspect:** [interactive explorer](docs/explore.html) · [reference results](docs/results.html)
+
 ## Start here
 
 ```console
