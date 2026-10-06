@@ -1,0 +1,4 @@
+'use strict';
+const panels=[...document.querySelectorAll('.guide-step')],steps=[...document.querySelectorAll('[data-step]')];let current=0,all=false;
+function render(){panels.forEach((p,i)=>p.hidden=!all&&i!==current);steps.forEach((s,i)=>{s.classList.toggle('selected',i===current);s.setAttribute('aria-current',i===current?'step':'false');});document.getElementById('stepStatus').textContent=all?'All steps':`Step ${current+1} of ${panels.length}`;document.getElementById('previous').disabled=all||current===0;document.getElementById('next').disabled=all||current===panels.length-1;document.getElementById('showAll').textContent=all?'Show one step':'Show all steps';}
+steps.forEach(s=>s.onclick=()=>{current=+s.dataset.step;all=false;render();});document.getElementById('previous').onclick=()=>{current--;render();};document.getElementById('next').onclick=()=>{current++;render();};document.getElementById('showAll').onclick=()=>{all=!all;render();};render();
