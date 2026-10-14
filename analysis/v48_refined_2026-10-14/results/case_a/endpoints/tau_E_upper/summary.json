@@ -1,0 +1,82 @@
+{
+  "fit": {
+    "chi2_total": 59.80193436295846,
+    "chi2_w1": 20.18626931292465,
+    "chi2_w2": 39.61566505003381,
+    "t0_mjd": 57055.02942295921,
+    "t0_boundary": false
+  },
+  "energy": {
+    "E_direct_absorbed_all_arrivals_erg": 5.688730041769395e+51,
+    "E_IR_eventual_escape_from_computed_emission_erg": 5.68872641681177e+51,
+    "E_direct_pending_absorption_erg": 0.0,
+    "E_IR_pending_absorption_erg": 0.0,
+    "convolution_pending_roundoff_erg": -2.754138440900601e+44,
+    "E_intrinsic_emission_erg": 8.709799559314129e+51,
+    "E_secondary_absorbed_in_window_erg": 3.021073417916204e+51,
+    "global_budget_relative": -6.856313167297267e-07,
+    "last_10_steps_emission_fraction": 5.664481117088063e-10,
+    "E_source_window_erg": 8.910571559836986e+51,
+    "E_source_full_driver_erg": 8.936384153160977e+51,
+    "E_direct_eventual_escape_erg": 3.2218415180675904e+51
+  },
+  "max_temperature_K": 1143.9073183127728,
+  "sublimation_threshold_K": 1793.2967474498973,
+  "static_opacity_gate_passed": true,
+  "photon_probability_error": 3.3306690738754696e-16,
+  "iterations": 9,
+  "final_iteration": {
+    "iteration": 9,
+    "max_spectral_relative": 6.659511450655279e-08,
+    "L1_relative": 4.817248795704332e-07,
+    "max_temperature_K": 1143.9073183127728,
+    "thermal_relative": 8.022372283508924e-16
+  },
+  "elapsed_seconds": 304.3279999999995,
+  "direct_source_MIR_peak_mJy": {
+    "W1": 0.15021047202399024,
+    "W2": 0.08101583630824218
+  },
+  "config": {
+    "stars": "input/m3.0_t0.0/0.850.dat",
+    "tau_visc": 255.39559275690607,
+    "eta": 0.15657722547255412,
+    "compact": [
+      0.25,
+      0.5,
+      0.0
+    ],
+    "extended": [
+      1.0,
+      2.0,
+      2.0
+    ],
+    "theta": 47.53852502449871,
+    "inc": 42.80181322810282,
+    "composition": "graphite",
+    "amin": 0.1,
+    "amax": 1.0,
+    "q": 3.5,
+    "density": 1000000000.0,
+    "n_radii": 32,
+    "n_mu": 24,
+    "n_phi": 64,
+    "dt": 10.0,
+    "source_end_days": 6500.0,
+    "seed": 12345,
+    "tau_C": 0.4007762276489148,
+    "tau_E": 2.616116631896505
+  },
+  "numerics": {
+    "nr": 6,
+    "nmu": 6,
+    "nwave": 144,
+    "dt": 30.0,
+    "nrays": 256,
+    "nobserver": 512,
+    "stop_days": 15000.0,
+    "seed": 481
+  },
+  "provenance_sha256": "18db959f12271732f1505f4336a58a4d0d48bceecd1fa5ce43719aa0182af5c3",
+  "status": "grid candidate; static-opacity domain only; requires fine-resolution confirmation"
+}

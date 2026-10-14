@@ -1,0 +1,74 @@
+{
+  "Case A": {
+    "id": "e88134285f4cf9c1e078",
+    "config": {
+      "stars": "input/m3.0_t0.0/0.850.dat",
+      "tau_visc": 240.86760459473655,
+      "eta": 0.14919604150895813,
+      "compact": [
+        0.25,
+        0.5,
+        0.0
+      ],
+      "extended": [
+        1.0,
+        2.0,
+        2.0
+      ],
+      "theta": 46.79361542530178,
+      "inc": 42.61391664587775,
+      "composition": "graphite",
+      "amin": 0.1,
+      "amax": 1.0,
+      "q": 3.5,
+      "density": 1000000000.0,
+      "n_radii": 32,
+      "n_mu": 24,
+      "n_phi": 64,
+      "dt": 10.0,
+      "source_end_days": 6500.0,
+      "seed": 12345,
+      "tau_C": 0.3829837136296157,
+      "tau_E": 1.9079389866977603
+    },
+    "chi2": 58.83195387879388,
+    "t0": 57067.08205691693
+  },
+  "Case B": {
+    "name": "center",
+    "id": "3152034933561190c5b5",
+    "config": {
+      "stars": "input/m0.7_t1.0/0.800.dat",
+      "tau_visc": 245.24509766270944,
+      "eta": 0.1823643760379557,
+      "compact": [
+        0.25,
+        0.5,
+        0
+      ],
+      "extended": [
+        1,
+        2,
+        2
+      ],
+      "tau_C": 0.38510950854710485,
+      "tau_E": 1.981951407809012,
+      "theta": 46.90535162653177,
+      "inc": 42.662643087378456,
+      "composition": "graphite",
+      "amin": 0.1,
+      "amax": 1.0,
+      "q": 3.5,
+      "density": 1000000000.0,
+      "dt": 10.0,
+      "source_end_days": 6500.0
+    },
+    "purpose": "cached best direct RT reference",
+    "parameter": null,
+    "side": null,
+    "predicted_chi2": null,
+    "fixed_t0": null,
+    "inside_training_convex_hull": true,
+    "chi2": 58.923309117058764
+  }
+}

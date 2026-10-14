@@ -12,6 +12,10 @@ To view it on your computer, download the repository and open `docs/index.html` 
 - **Reproduce:** [step-by-step UGC 11487 tutorial](docs/walkthrough.html)
 - **Inspect:** [interactive explorer](docs/explore.html) · [reference results](docs/results.html)
 
+## Refined V4.8 inference supplement
+
+[Refined Case A/B scripts, numerical products and conditional intervals](analysis/v48_refined_2026-10-14/README.md) are now available separately from the archived example below. The supplement documents its source/cache/runtime limits and does not claim calibrated 1-sigma coverage or a complete new runnable release.
+
 ## Start here
 
 ```console
